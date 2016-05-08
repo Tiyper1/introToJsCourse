@@ -1,5 +1,5 @@
 # Introduction
 
-## About the course
+### About the course
 
 
