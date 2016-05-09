@@ -26,3 +26,12 @@ Going back to the previous example you might of also noticed a semicolon at the 
 
 #### Block Code 
 You will also come across code that is surrounded by curly braces, this is referred to as **block code**.
+            
+            /* This is a JavaScript function 
+             * the code inside of it would be
+             * referred to as a block of code
+             */
+             function greet (){
+                var greeting = "Hello, World!";
+                console.log(greeting);
+             }
