@@ -21,8 +21,10 @@ JavaScript supports six types of data types. Of the six data types five of them 
 
 #### Example of a string 
      /*
-      * A JavaScript string is surrounded by double-quotes or single-quotes
+      * A JavaScript string can be surrounded by double-quotes or single-quotes
       * which ever you use doesn't matter just make sure you are consistant 
+      * you can also escape a double or single quote with in the string which
+      * you will see in the below example
       */
       
       //String surrounded by a single quote 
@@ -39,3 +41,6 @@ JavaScript supports six types of data types. Of the six data types five of them 
       
       //using a single quote inside a double quote 
       console.log('This is a "quote"');
+
+#### Example of a number
+
