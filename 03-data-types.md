@@ -69,6 +69,26 @@ You can represent a number as exponential notation or scientific notation, which
 
     //Example of Exponential Notation
     console.log(1e6); // or 1 multiplied by 10 to the power of 6 (or a million)
+    
+#### Boolean Type
+The Boolean type represents a logical entity and can have two valets **true**, and **false**
+
+    //This will return a true value
+    console.log(1==1) //returns true because 1 is equal to 1
+    
+    //This will return a false value
+    console.log(1==2) //returns false because 1 is not equal to 2
+#### Undefined type
+A variable that is not been assigned a value will return undefined.
+    
+    //This statement will return undefined
+    console.log(a); //we never assigned a value to a so it will return undefined
+    
+    //This state will return a value
+    var a = "Hello, World!";
+    console.log(a); //This will return Hello, World!, because we have defined the variable a 
+
+    
 
 
 
