@@ -1,4 +1,4 @@
-# First JavaScript program 
+# Getting Started
 
 ### Overview 
 In this module you will:
