@@ -9,7 +9,7 @@ In this module you will:
 - Create a JavaScript file 
 - Run some JavaScript code from an external JavaScript file
         
-        //index.html
+#### index.html
         <!doctype html>
         <html>
           <head>
@@ -23,7 +23,8 @@ In this module you will:
           </body>
         </html>
 
-        //main.js
+
+#### main.js
         console.log("Hello World");
         
 ### Conclusion
