@@ -8,6 +8,7 @@ In this module you will:
 - Using the HTML script tag to host the JavaScript for the HTML document
 - Create a JavaScript file 
 - Run some JavaScript code from an external JavaScript file
+- Learn to comment JavaScript code
 
 ### Accessing the console from your browser
 In this section we will be using the Google Chrome web browser to run a simple command in the console area.
@@ -27,7 +28,7 @@ In this section we are going to create an html file and add some inline JavaScri
         <html>
           <head>
             <meta charset="utf-8">
-            <title>firstProgram</title>
+            <title>Hello World</title>
           </head>
           
           <body>
@@ -38,7 +39,8 @@ In this section we are going to create an html file and add some inline JavaScri
 
 
 #### main.js
-        console.log("Hello World");
+        //Instruct Console to log statement Hello, World!
+        console.log("Hello, World!");
         
 ### Conclusion
 In this module we created an html document and added a script tag just before the closing body tag.
