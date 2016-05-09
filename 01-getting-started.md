@@ -19,6 +19,9 @@ In this section we will be using the Google Chrome web browser to run a simple c
 ### So what just happened
 The console window is used to interact with the browser's JavaScript Engine in this case because we are using Google Chrome we have access to the JavaScript V8 engine to run simple JavaScript commands. In our example we ran the **console.log** to return text that we inputted. We can also run other JavaScript statements other than console.log.
 
+### Executing JavaScript from the browser
+In this section we are going to create an html file and add some inline JavaScript to your browser and then refactor the file so that the JavaScript will be in it's own seperate file.
+
 #### index.html
         <!doctype html>
         <html>
