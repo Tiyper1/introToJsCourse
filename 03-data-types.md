@@ -13,13 +13,13 @@ JavaScript supports six types of data types. Of the six data types five of them 
 ### Non Primitive Data Types
 - object
 
-### Strings
+### The String Type
 - The string data type is used to represent textual data
 - it is a set of elements of 16-bit unsigned integer values
 - Each element string occupies a position  in the String
     - for example the first element is at index 0 and the next one is at index 1, and so on 
 
-#### Example of a string 
+#### Examples
      /*
       * A JavaScript string can be surrounded by double-quotes or single-quotes
       * which ever you use doesn't matter just make sure you are consistant 
@@ -42,5 +42,6 @@ JavaScript supports six types of data types. Of the six data types five of them 
       //using a single quote inside a double quote 
       console.log('This is a "quote"');
 
-#### Example of a number
+#### The Number type
+
 
