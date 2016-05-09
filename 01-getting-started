@@ -26,3 +26,5 @@ In this module you will:
         //main.js
         console.log("Hello World");
         
+### Conclusion
+In this module we created an html document and added a script tag just before the closing body tag.
