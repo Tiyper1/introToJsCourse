@@ -37,7 +37,6 @@ In this section we are going to create an html file and add some inline JavaScri
           </body>
         </html>
 
-
 #### main.js
         //Instruct Console to log statement Hello, World!
         console.log("Hello, World!");
