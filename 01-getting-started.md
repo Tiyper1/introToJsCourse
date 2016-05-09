@@ -1,6 +1,6 @@
 # First JavaScript program 
 
-###Overview 
+### Overview 
 In this module you will:
 - Learn to access the console section of your browser
 - Create a basic HTML file 
@@ -8,7 +8,17 @@ In this module you will:
 - Using the HTML script tag to host the JavaScript for the HTML document
 - Create a JavaScript file 
 - Run some JavaScript code from an external JavaScript file
-        
+
+### Accessing the console from your browser
+In this section we will be using the Google Chrome web browser to run a simple command in the console area.
+- Open Google Chrome webbrowser
+- Press ctrl+shift+i or right-click anywhere on the screen and press **inspect**
+- Click on the Console tab on the top 
+- On the bottom there should be a window called **Console**, in the console window type **console.log("Hello, World!")** and press enter 
+
+### So what just happened
+The console window is used to interact with the browser's JavaScript Engine in this case because we are using Google Chrome we have access to the JavaScript V8 engine to run simple JavaScript commands. In our example we ran the **console.log** to return text that we inputted. We can also run other JavaScript statements other than console.log.
+
 #### index.html
         <!doctype html>
         <html>
