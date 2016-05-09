@@ -88,7 +88,13 @@ A variable that is not been assigned a value will return undefined.
     var a = "Hello, World!";
     console.log(a); //This will return Hello, World!, because we have defined the variable a 
 
-    
+#### Null type
+The Null type has the value of null assigned to the varaible;
+
+    //The varaible has null value assigned to it 
+    var a = null;
+    console.log(a);
+
 
 
 
