@@ -94,6 +94,10 @@ The Null type has the value of null assigned to the varaible;
     //The varaible has null value assigned to it 
     var a = null;
     console.log(a);
+    
+#### Object Type
+
+#### typeof
 
 
 
