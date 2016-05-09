@@ -41,17 +41,5 @@ In this section we are going to create an html file and add some inline JavaScri
         //Instruct Console to log statement Hello, World!
         console.log("Hello, World!");
 
-### Comments
-You may of noticed that in the main.js file we add a line with two foward slashes. In JavaScript if you want to comment your code you can do it in two ways, inline comment or multi-line comment. Anything that is commented out is ignored by the JavaScript Engine
-
-#### Example of a inline comment      
-        //Example of a inline comment
-
-#### Example of a multi-line comment        
-        /*
-         * This is an example of 
-         * a multi-line comment
-         */
-         
 ### Conclusion
 In this module we created an html document and added a script tag just before the closing body tag.
