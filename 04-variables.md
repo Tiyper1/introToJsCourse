@@ -31,3 +31,37 @@ Note: Declaring a variable is optional but is not best practice
     }
     
     console.log(d()); //returns Hello, World!
+    
+#### Working with variables 
+
+    //Assigning an object literal to a variable
+    var user = {
+        firstname : "john",
+        lastname : "doe",
+        username : "jdoe",
+        email : "jdoe@example.com",
+        profile : function(){
+            var userProfile =  "<table>";
+                userProfile += "<thead>";
+                userProfile += "<tr>";
+                userProfile += "<th> First Name</th>";
+                userProfile += "<th> Last Name</th>";
+                userProfile += "<th> Username </th>";
+                userProfile += "<th> Email</th>";
+                userProfile += "</tr>";
+                userProfile += "</thead>";
+                userProfile += "<tbody>";
+                userProfile += "<tr>";
+                userProfile += "<td>" + this.firstname + "</td>";
+                userProfile += "<td> Last Name</td>";
+                userProfile += "<td> Username </td>";
+                userProfile += "<td> Email</td>";
+                userProfile += "</tr>";
+                userProfile += "</tbody>";
+                userProfile += "</table>";
+        }
+    }
+    
+    document.write(user.profile());
+    
+    
