@@ -99,10 +99,10 @@ The Null type has the value of null assigned to the varaible;
 The object Type is a container for named values, called properties and methods, where properties are values or variables that are associated with a JavaScript object, and methods or functions are actions that are associated with a JavaScript object.
 
     /*
-        There are 3 ways to create an object in JavaScript.
-        Using Object Initializers ( Object Literal )
-        Using Object Constructor function
-        Using Object.create method
+     * There are 3 ways to create an object in JavaScript.
+     *  Using Object Initializers ( Object Literal )
+     *  Using Object Constructor function
+     *  Using Object.create method
     */
     
     //Example of creating an object Using Object Initializers
@@ -163,13 +163,6 @@ To find out what data type a value has you can use the typeof method
     typeof false === 'boolean';
     typeof Boolean(true) === 'boolean'; // but never use this form!
     
-    
-    // Symbols
-    typeof Symbol() === 'symbol'
-    typeof Symbol('foo') === 'symbol'
-    typeof Symbol.iterator === 'symbol'
-    
-    
     // Undefined
     typeof undefined === 'undefined';
     typeof declaredButUndefinedVariable === 'undefined';
@@ -196,6 +189,46 @@ To find out what data type a value has you can use the typeof method
     typeof function(){} === 'function';
     typeof class C {} === 'function';
     typeof Math.sin === 'function';
+    
+    
+### Demo Invoice JavaScript App
+
+#### index.html
+    <!doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Demo App</title>
+        </head>
+        <body>
+            <script src="./js/main.js"></script>
+        </body>
+    </html>
+#### main.js
+    /*
+     * File main.js
+     * App Name : Demo Invoice JavaScript App 
+     */
+    var car = {
+      "year" : 2017,
+    	make : "honda",
+      model : "pilot",
+      doors : 4,
+      color : "black",
+      price : 35000,
+      sunRoof : true,
+      radio : true,
+      cdPlayer : false,
+      spareTire : null,
+      priceOfSatifaction : 1e309,
+      
+      invoice : function(){  	    
+        return "The " + this.year + " " + this.make + " "  + this.model +  " comes with " + this.doors + " doors and is 	         available in the color as long as it's " + this.color + ", for the special price of " + this.price + ". Act now cause the price of your satisfaction is " + this.priceOfSatifaction;
+      }
+    }
+    
+    //Write the return value of the car.invoice method to the HTML file
+    document.write.log(car.invoice());
     
     
 
