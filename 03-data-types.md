@@ -96,9 +96,107 @@ The Null type has the value of null assigned to the varaible;
     console.log(a);
     
 #### Object Type
+The object Type is a container for named values, called properties and methods, where properties are values or variables that are associated with a JavaScript object, and methods or functions are actions that are associated with a JavaScript object.
+
+    /*
+        There are 3 ways to create an object in JavaScript.
+        Using Object Initializers ( Object Literal )
+        Using Object Constructor function
+        Using Object.create method
+    */
+    
+    //Example of creating an object Using Object Initializers
+    var car = {
+        "year" : 2016,
+        "make" : "honda",
+        "model" : "pilot",
+        "color" : "gray",
+        "doors" : 4,
+    }
+    
+    console.log( car.make );
+    
+    //Example of creating an object using a Object Constructor function 
+    var car = new Object();
+    
+    car.year = 2016;
+    car.make = "honda";
+    car.model = "pilot";
+    car.color = "gray";
+    car.doors = 4;
+    
+    console.log(car.model);
+    
+    //Example of creating an object using the Object.create method
+    
+    var car = Object.create ({});
+    
+    car.year = 2016
+    car.make = "honda";
+    car.model = "pilot";
+    car.color = "gray";
+    car.doors = 4;
+    
+    console.log(car.color);
 
 #### typeof
+To find out what data type a value has you can use the typeof method 
 
-
+    // Numbers
+    typeof 37 === 'number';
+    typeof 3.14 === 'number';
+    typeof Math.LN2 === 'number';
+    typeof Infinity === 'number';
+    typeof NaN === 'number'; // Despite being "Not-A-Number"
+    typeof Number(1) === 'number'; // but never use this form!
+    
+    
+    // Strings
+    typeof "" === 'string';
+    typeof "bla" === 'string';
+    typeof (typeof 1) === 'string'; // typeof always returns a string
+    typeof String("abc") === 'string'; // but never use this form!
+    
+    
+    // Booleans
+    typeof true === 'boolean';
+    typeof false === 'boolean';
+    typeof Boolean(true) === 'boolean'; // but never use this form!
+    
+    
+    // Symbols
+    typeof Symbol() === 'symbol'
+    typeof Symbol('foo') === 'symbol'
+    typeof Symbol.iterator === 'symbol'
+    
+    
+    // Undefined
+    typeof undefined === 'undefined';
+    typeof declaredButUndefinedVariable === 'undefined';
+    typeof undeclaredVariable === 'undefined'; 
+    
+    
+    // Objects
+    typeof {a:1} === 'object';
+    
+    // use Array.isArray or Object.prototype.toString.call
+    // to differentiate regular objects from arrays
+    typeof [1, 2, 4] === 'object';
+    
+    typeof new Date() === 'object';
+    
+    
+    // The following is confusing. Don't use!
+    typeof new Boolean(true) === 'object'; 
+    typeof new Number(1) === 'object'; 
+    typeof new String("abc") === 'object';
+    
+    
+    // Functions
+    typeof function(){} === 'function';
+    typeof class C {} === 'function';
+    typeof Math.sin === 'function';
+    
+    
 
 
