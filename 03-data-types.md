@@ -223,7 +223,7 @@ To find out what data type a value has you can use the typeof method
       priceOfSatifaction : 1e309,
       
       invoice : function(){  	    
-        return "The " + this.year + " " + this.make + " "  + this.model +  " comes with " + this.doors + " doors and is 	         available in the color as long as it's " + this.color + ", for the special price of " + this.price + ". Act now cause the price of your satisfaction is " + this.priceOfSatifaction;
+        return "The " + this.year + " " + this.make + " "  + this.model +  " comes with " + this.door + " doors and is 	         available in the color as long as it's " + this.color + ", for the special price of " + this.price + ". Act now cause the price of your satisfaction is " + this.priceOfSatifaction;
       }
     }
     
