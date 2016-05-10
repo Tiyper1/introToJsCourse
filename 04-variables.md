@@ -53,9 +53,9 @@ Note: Declaring a variable is optional but is not best practice
                 userProfile += "<tbody>";
                 userProfile += "<tr>";
                 userProfile += "<td>" + this.firstname + "</td>";
-                userProfile += "<td> Last Name</td>";
-                userProfile += "<td> Username </td>";
-                userProfile += "<td> Email</td>";
+                userProfile += "<td>" + this.lastname + "</td>";
+                userProfile += "<td>" + this.username + "</td>";
+                userProfile += "<td>" + this.email + "</td>";
                 userProfile += "</tr>";
                 userProfile += "</tbody>";
                 userProfile += "</table>";
